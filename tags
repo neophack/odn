@@ -1,0 +1,931 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR 		= $(CROSS_COMPILE)ar$/;"	m
+A_ports	module_orders.c	/^	unsigned char A_ports[MAX_MULTIPIES_NUM][60];$/;"	m	struct:db_store	file:
+A_stat	module_orders.c	/^	unsigned char A_stat[MAX_MULTIPIES_NUM];$/;"	m	struct:db_store	file:
+ArrayEmpty	main.c	/^static int ArrayEmpty(unsigned char *src,unsigned short len)$/;"	f	file:
+BINANME	Makefile	/^BINANME = odf_china_Unicom$/;"	m
+BOARD_CONFIG_FILE_NAME	main.c	45;"	d	file:
+BOARD_CONFIG_FILE_SIZE	main.c	46;"	d	file:
+BUFF_SIZE	main.c	39;"	d	file:
+Byte	env/zlib.h	/^typedef unsigned char  Byte;  \/* 8 bits *\/$/;"	t
+Byte	env/zlib.h	101;"	d
+Bytef	env/zlib.h	/^   typedef Byte  FAR Bytef;$/;"	t
+Bytef	env/zlib.h	104;"	d
+Bytef	env/zlib.h	319;"	d
+CANCLE_ORDER	include/Jiajian_Order.h	31;"	d
+CC	Makefile	/^CC 		= $(CROSS_COMPILE)gcc$/;"	m
+CF8051_STARTUP_FAILED	include/dfu_update.h	64;"	d
+CLIENT	module_orders.c	/^}CLIENT;$/;"	t	typeref:struct:_client	file:
+CMD_DEL_1_PORTS	include/Jianei_Order.h	24;"	d
+CMD_DEL_2_PORTS	include/Jianei_Order.h	26;"	d
+CMD_EXC_2_PORTS	include/Jianei_Order.h	23;"	d
+CMD_GETENV	env/fw_env.c	45;"	d	file:
+CMD_JIAJIAN_DEL_2PORTS	include/Jiajian_Order.h	25;"	d
+CMD_JIAJIAN_NEW_2_PORTS	include/Jiajian_Order.h	21;"	d
+CMD_JIAJIAN_NEW_5_PORTS	include/Jiajian_Order.h	26;"	d
+CMD_NEW_1_PORTS	include/Jianei_Order.h	22;"	d
+CMD_NEW_2_PORTS	include/Jianei_Order.h	25;"	d
+CMD_NEW_5_PORTS	include/Jianei_Order.h	27;"	d
+CMD_PRINTENV	env/fw_env.c	43;"	d	file:
+CMD_REC_1_PORT	include/Jianei_Order.h	28;"	d
+CMD_SETENV	env/fw_env.c	44;"	d	file:
+CONFIG_BAUDRATE	env/fw_env.h	44;"	d
+CONFIG_BOOTCOMMAND	env/fw_env.h	46;"	d
+CONFIG_BOOTDELAY	env/fw_env.h	45;"	d
+CONFIG_ENV_SIZE	env/fw_env.c	79;"	d	file:
+CONFIG_FILE	env/fw_env.h	30;"	d
+CONTROL_CLOSE	include/dfu_update.h	37;"	d
+CRC16_CCITT_H__	include/crc16_ccitt.h	3;"	d
+CRC_RIGHT	include/network.h	5;"	d
+CRC_RIGHT	include/none-rtl-task.h	5;"	d
+CRC_WRONG	include/network.h	6;"	d
+CRC_WRONG	include/none-rtl-task.h	6;"	d
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = arm-linux-$/;"	m
+DATA_CLIENT	include/Jiajian_Order.h	19;"	d
+DATA_FROM_NET	include/dfu_update.h	46;"	d
+DATA_FROM_UART	include/dfu_update.h	47;"	d
+DATA_SEND_DONE	lib_orders/Jiajian_Order_new_2_ports.c	3;"	d	file:
+DATA_SEND_FAIL	lib_orders/Jiajian_Order_new_2_ports.c	4;"	d	file:
+DATA_SOURCE_MOBILE	include/Jiajian_Order.h	16;"	d
+DATA_SOURCE_MOBILE	include/Jianei_Order.h	19;"	d
+DATA_SOURCE_MOBILE	module_orders.c	21;"	d	file:
+DATA_SOURCE_NET	include/Jiajian_Order.h	17;"	d
+DATA_SOURCE_NET	include/Jianei_Order.h	20;"	d
+DATA_SOURCE_NET	module_orders.c	23;"	d	file:
+DATA_SOURCE_UART	include/Jiajian_Order.h	15;"	d
+DATA_SOURCE_UART	include/Jianei_Order.h	18;"	d
+DATA_SOURCE_UART	module_orders.c	22;"	d	file:
+DATA_SZ	module_alarm.c	23;"	d	file:
+DATA_WEBMASTER	include/Jiajian_Order.h	18;"	d
+DEBUG	include/dfu_update.h	22;"	d
+DEBUG	include/dfu_update.h	24;"	d
+DEBUG_DFU	include/dfu_update.h	18;"	d
+DEFAULT_BOARD_CONFIG	main.c	43;"	d	file:
+DEFAULT_PORT	main.c	38;"	d	file:
+DEFAULT_STATUS	include/dfu_update.h	58;"	d
+DEVESIZE	env/fw_env.c	75;"	d	file:
+DEVICE1_ESIZE	env/fw_env.h	37;"	d
+DEVICE1_NAME	env/fw_env.h	34;"	d
+DEVICE1_OFFSET	env/fw_env.h	35;"	d
+DEVICE2_ESIZE	env/fw_env.h	42;"	d
+DEVICE2_NAME	env/fw_env.h	39;"	d
+DEVICE2_OFFSET	env/fw_env.h	40;"	d
+DEVICE_OFFLINE	include/dfu_update.h	57;"	d
+DEVICE_ONLINE	include/dfu_update.h	56;"	d
+DEVNAME	env/fw_env.c	72;"	d	file:
+DEVOFFSET	env/fw_env.c	73;"	d	file:
+DEVTYPE	env/fw_env.c	77;"	d	file:
+DFU_CF8051	include/dfu_update.h	/^struct DFU_CF8051{$/;"	s
+DFU_REQUEST_CMD_TYPE_0x01	include/dfu_update.h	68;"	d
+DFU_REQUEST_CMD_TYPE_0x02	include/dfu_update.h	69;"	d
+DFU_REQUEST_CMD_TYPE_0x03	include/dfu_update.h	70;"	d
+DFU_REQUEST_CMD_TYPE_0x04	include/dfu_update.h	71;"	d
+DFU_SIM3U1XX	include/dfu_update.h	/^struct DFU_SIM3U1XX{$/;"	s
+DFU_UPDATE	include/dfu_update.h	/^struct DFU_UPDATE{$/;"	s
+DIR_INC_USR	Makefile	/^DIR_INC_USR = .\/include$/;"	m
+DIR_SRC_ENV	Makefile	/^DIR_SRC_ENV = .\/env$/;"	m
+DIR_SRC_ORDERS	Makefile	/^DIR_SRC_ORDERS = .\/lib_orders$/;"	m
+DIR_SRC_SOFTUPDATE	Makefile	/^DIR_SRC_SOFTUPDATE = .\/dfu_update$/;"	m
+DO1	env/crc32.c	144;"	d	file:
+DO2	env/crc32.c	145;"	d	file:
+DO4	env/crc32.c	146;"	d	file:
+DO8	env/crc32.c	147;"	d	file:
+DOWN_READY	include/dfu_update.h	41;"	d
+DYB_PORT_NOT_USED	include/Jiajian_Order.h	28;"	d
+DYB_PORT_NOT_USED	include/Jianei_Order.h	30;"	d
+DYB_PORT_NOW_USING	include/Jiajian_Order.h	29;"	d
+DYB_PORT_NOW_USING	include/Jianei_Order.h	31;"	d
+DYB_PORT_STAT_MARK_OFFLINE	lib_orders/Jianei_Order_new_5_ports.c	13;"	d	file:
+DYB_PORT_STAT_MARK_ONLINE	lib_orders/Jianei_Order_new_5_ports.c	12;"	d	file:
+DevStatus	include/os_struct.h	/^}DevStatus;$/;"	t	typeref:struct:frame_status
+EID_VAILD_DATA_INDEX	lib_orders/Jianei_Order_del_2_ports.c	12;"	d	file:
+EID_VAILD_DATA_INDEX	lib_orders/Jianei_Order_exchange_2_ports.c	12;"	d	file:
+EID_VAILD_DATA_INDEX	lib_orders/Jianei_Order_new_1_port.c	10;"	d	file:
+EID_VAILD_DATA_INDEX	lib_orders/Jianei_Order_new_2_ports.c	12;"	d	file:
+EID_VAILD_DATA_LENGTH	lib_orders/Jianei_Order_del_2_ports.c	13;"	d	file:
+EID_VAILD_DATA_LENGTH	lib_orders/Jianei_Order_exchange_2_ports.c	13;"	d	file:
+EID_VAILD_DATA_LENGTH	lib_orders/Jianei_Order_new_1_port.c	11;"	d	file:
+EID_VAILD_DATA_LENGTH	lib_orders/Jianei_Order_new_2_ports.c	13;"	d	file:
+ENV1_SIZE	env/fw_env.h	36;"	d
+ENV2_SIZE	env/fw_env.h	41;"	d
+ENVSECTORS	env/fw_env.c	76;"	d	file:
+ENVSIZE	env/fw_env.c	74;"	d	file:
+ENV_SIZE	env/fw_env.c	81;"	d	file:
+ERROR_UUID_NOT_MATCH	include/Jiajian_Order.h	41;"	d
+FALSE	include/serialconfig.h	1;"	d
+FAR	env/zlib.h	236;"	d
+FAR	env/zlib.h	238;"	d
+FAR	env/zlib.h	245;"	d
+FAR	env/zlib.h	247;"	d
+FAR	env/zlib.h	271;"	d
+FAR	env/zlib.h	308;"	d
+FAR	env/zlib.h	358;"	d
+FIND_FAILED	include/dfu_update.h	50;"	d
+FIND_SUCCESS	include/dfu_update.h	49;"	d
+FLAG_BOOLEAN	env/fw_env.c	/^	FLAG_BOOLEAN,$/;"	e	enum:flag_scheme	file:
+FLAG_INCREMENTAL	env/fw_env.c	/^	FLAG_INCREMENTAL,$/;"	e	enum:flag_scheme	file:
+FLAG_NONE	env/fw_env.c	/^	FLAG_NONE,$/;"	e	enum:flag_scheme	file:
+FRAME_OFFLINE	include/os_struct.h	79;"	d
+FRAME_ONLINE	include/os_struct.h	78;"	d
+FRAME_ORDER	include/Jianei_Order.h	36;"	d
+FRAME_SEND_FAILED	include/dfu_update.h	63;"	d
+FRAME_UPDATE	include/Jianei_Order.h	37;"	d
+FTP_ERROR	include/dfu_update.h	44;"	d
+FTP_H_	include/ftp.h	2;"	d
+FramePortInfos	module_resource.c	/^struct FramePortInfos {$/;"	s	file:
+HAVE_REDUND	env/fw_env.h	32;"	d
+HaveRedundEnv	env/fw_env.c	/^static int HaveRedundEnv = 0;$/;"	v	file:
+INFOSIZE	module_resource.c	10;"	d	file:
+INFO_START_INDEX	module_resource.c	11;"	d	file:
+JIAJIAN_NEW_2_PORTS_DDK	include/Jiajian_Order.h	23;"	d
+JIAJIAN_NEW_2_PORTS_YDK	include/Jiajian_Order.h	22;"	d
+Jiajian_Order_new_2_ports	lib_orders/Jiajian_Order_new_2_ports.c	/^void Jiajian_Order_new_2_ports(unsigned char *src, unsigned char data_source, $/;"	f
+Jianei_Batch	lib_orders/Jianei_common.c	/^struct batchOrderStruct   Jianei_Batch;$/;"	v	typeref:struct:batchOrderStruct
+Jianei_Batch_new_5_ports	lib_orders/Jianei_Order_new_5_ports.c	/^void Jianei_Batch_new_5_ports(unsigned char *src, unsigned char data_source, int sockfd)$/;"	f
+Jianei_Order	lib_orders/Jianei_common.c	/^struct orderStruct 		  Jianei_Order;$/;"	v	typeref:struct:orderStruct
+Jianei_Order_del_1_port	lib_orders/Jianei_Order_del_1_port.c	/^void Jianei_Order_del_1_port(unsigned char *src, unsigned char data_source, int sockfd)$/;"	f
+Jianei_Order_del_2_ports	lib_orders/Jianei_Order_del_2_ports.c	/^void Jianei_Order_del_2_ports(unsigned char *src, unsigned char data_source, int sockfd)$/;"	f
+Jianei_Order_exchange_2_ports	lib_orders/Jianei_Order_exchange_2_ports.c	/^void Jianei_Order_exchange_2_ports(unsigned char *src, unsigned char data_source, int sockfd )$/;"	f
+Jianei_Order_new_1_port	lib_orders/Jianei_Order_new_1_port.c	/^void Jianei_Order_new_1_port(unsigned char *src, unsigned char data_source, int sockfd)$/;"	f
+Jianei_Order_new_2_ports	lib_orders/Jianei_Order_new_2_ports.c	/^void Jianei_Order_new_2_ports(unsigned char *src, unsigned char data_source, int sockfd)$/;"	f
+LD	Makefile	/^LD 		= $(CROSS_COMPILE)ld$/;"	m
+LOGIN_SUCS	include/dfu_update.h	36;"	d
+LocalRx	include/os_struct.h	/^	unsigned char LocalRx;$/;"	m	struct:os_netPart
+LocalTx	include/os_struct.h	/^	unsigned char LocalTx;$/;"	m	struct:os_netPart
+Local_alarm	include/os_struct.h	/^	unsigned char Local_alarm;$/;"	m	struct:os_netPart
+Local_reSource	include/os_struct.h	/^	unsigned char Local_reSource;$/;"	m	struct:os_netPart
+MAX146	main.c	41;"	d	file:
+MAXFRAME	module_resource.c	9;"	d	file:
+MAXSEG_64K	env/zlib.h	140;"	d
+MAX_ENTIRES	include/Jiajian_Order.h	34;"	d
+MAX_ENTIRES	include/Jianei_Order.h	65;"	d
+MAX_FRAMES	include/Jiajian_Order.h	35;"	d
+MAX_FRAMES	include/Jianei_Order.h	14;"	d
+MAX_FRAMES	module_alarm.c	22;"	d	file:
+MAX_MEM_LEVEL	env/zlib.h	187;"	d
+MAX_MEM_LEVEL	env/zlib.h	189;"	d
+MAX_MULTIPIES_NUM	module_orders.c	26;"	d	file:
+MAX_WBITS	env/zlib.h	199;"	d
+MK_STR	env/fw_env.c	120;"	d	file:
+MOBILE_BUFFER	include/mobile.h	4;"	d
+MOBILE_ORDER	include/Jiajian_Order.h	39;"	d
+MSDOS	env/zlib.h	114;"	d
+NEED_PASSWORD	include/dfu_update.h	35;"	d
+NET_ORDER	include/Jiajian_Order.h	38;"	d
+NOT_ACTIVE	main.c	36;"	d	file:
+NO_DUMMY_DECL	env/zlib.h	181;"	d
+NO_SUCH_FILE	include/dfu_update.h	40;"	d
+NO_vsnprintf	env/zlib.h	352;"	d
+NO_vsnprintf	env/zlib.h	356;"	d
+OBJCOPY	Makefile	/^OBJCOPY = $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = $(CROSS_COMPILE)objdump$/;"	m
+OBJ_ALL	Makefile	/^OBJ_ALL = $(OBJ_C)$/;"	m
+OBJ_C	Makefile	/^OBJ_C = $(patsubst %.c,%.o,$(SRC_C))$/;"	m
+OF	env/zlib.h	219;"	d
+OF	env/zlib.h	221;"	d
+ORDER_MOBILE	include/Jianei_Order.h	34;"	d
+ORDER_NET	include/Jianei_Order.h	33;"	d
+OS2	env/zlib.h	117;"	d
+OS_BOARD	include/os_struct.h	/^}OS_BOARD;$/;"	t	typeref:struct:os_boardinfo
+OS_MOBILE	include/mobile.h	/^}OS_MOBILE;$/;"	t	typeref:struct:uart1_data
+OS_NET	include/os_struct.h	/^}OS_NET;\/\/just for net-part$/;"	t	typeref:struct:os_netPart
+OS_UART	include/os_struct.h	/^}OS_UART;\/\/just for mainBoard$/;"	t	typeref:struct:os_uart0_struct
+OpenDev	config-serial.c	/^static int OpenDev(char *Dev)$/;"	f	file:
+PASV_MODE	include/dfu_update.h	39;"	d
+PATHNAME_CREATE	include/dfu_update.h	38;"	d
+PortsInfo	module_resource.c	/^}PortsInfo;	$/;"	v	typeref:struct:FramePortInfos
+Preparing_cmd0d_to_sim3u146_Boards	lib_orders/Jianei_Order_new_5_ports.c	/^static uint8_t Preparing_cmd0d_to_sim3u146_Boards(unsigned char *src)$/;"	f	file:
+Preparing_cmd88_to_sim3u146_Borads	lib_orders/Jianei_Order_new_5_ports.c	/^static uint8_t Preparing_cmd88_to_sim3u146_Borads(unsigned char *src)$/;"	f	file:
+Preparing_cmd8c_to_sim3u146_Borads	lib_orders/Jianei_Order_new_5_ports.c	/^static uint8_t Preparing_cmd8c_to_sim3u146_Borads(unsigned char *src, unsigned char patchidex)$/;"	f	file:
+Preparing_cmdA2_to_sim3u146_Boards	lib_orders/Jianei_Order_new_5_ports.c	/^static uint8_t Preparing_cmdA2_to_sim3u146_Boards(unsigned char *src)$/;"	f	file:
+Preparing_record_5_ports_relationship	lib_orders/Jianei_Order_new_5_ports.c	/^static uint8_t Preparing_record_5_ports_relationship(unsigned char *src)$/;"	f	file:
+QUIT	include/dfu_update.h	42;"	d
+READELF	Makefile	/^READELF = $(CROSS_COMPILE)readelf$/;"	m
+RECV_ERROR	include/network.h	9;"	d
+RECV_ERROR	include/none-rtl-task.h	9;"	d
+SEEK_CUR	env/zlib.h	344;"	d
+SEEK_END	env/zlib.h	345;"	d
+SEEK_SET	env/zlib.h	343;"	d
+SELECT_TIMEOUT	main.c	40;"	d	file:
+SEMKEY	include/mainBoard.h	5;"	d
+SEMKEY	include/mobile.h	6;"	d
+SEMKEY	include/network.h	12;"	d
+SEND_FAILED	include/network.h	7;"	d
+SEND_FAILED	include/none-rtl-task.h	7;"	d
+SEND_SUCCESS	include/network.h	8;"	d
+SEND_SUCCESS	include/none-rtl-task.h	8;"	d
+SERVICE_READY	include/dfu_update.h	34;"	d
+SHMKEY	include/mainBoard.h	4;"	d
+SHMKEY	include/mobile.h	5;"	d
+SHMKEY	include/network.h	11;"	d
+SIZE	include/Jianei_Order.h	12;"	d
+SIZE	include/queue.h	6;"	d
+SIZE	module_orders.c	25;"	d	file:
+SIZE_600	include/Jiajian_Order.h	13;"	d
+SMALL_MEDIUM	env/zlib.h	234;"	d
+SMALL_MEDIUM	env/zlib.h	243;"	d
+SOCKET_ERROR	include/network.h	4;"	d
+SOCKET_ERROR	include/none-rtl-task.h	4;"	d
+SRC_C	Makefile	/^SRC_C = $(wildcard *.c) $(wildcard $(DIR_SRC_ORDERS)\/*.c) $(wildcard $(DIR_SRC_SOFTUPDATE)\/*.c) $(wildcard $(DIR_SRC_ENV)\/*.c)$/;"	m
+STAGE1_DEVICE_STARTUP	include/dfu_update.h	52;"	d
+STAGE2_WRITING_NFLASH	include/dfu_update.h	53;"	d
+STAGE3_DEVICE_RESTART	include/dfu_update.h	54;"	d
+STDC	env/zlib.h	148;"	d
+STDC	env/zlib.h	157;"	d
+STDC	env/zlib.h	160;"	d
+STDC	env/zlib.h	163;"	d
+STDC	env/zlib.h	166;"	d
+STDC	env/zlib.h	170;"	d
+STDC99	env/zlib.h	152;"	d
+STRIP	Makefile	/^STRIP	= $(CROSS_COMPILE)strip$/;"	m
+SYS16BIT	env/zlib.h	130;"	d
+SZ_16	include/dfu_update.h	31;"	d
+SZ_20K	include/queue.h	5;"	d
+SZ_256	include/dfu_update.h	29;"	d
+SZ_2K	include/dfu_update.h	27;"	d
+SZ_512	include/dfu_update.h	28;"	d
+SZ_6	include/dfu_update.h	32;"	d
+SZ_600	include/dfu_update.h	30;"	d
+TASKQUEUE	include/queue.h	/^}TASKQUEUE;$/;"	t	typeref:struct:_TASKQUEUE
+TRUE	include/serialconfig.h	2;"	d
+TX_BUFFER_SIZE	include/Jiajian_Order.h	36;"	d
+TX_BUFFER_SIZE	include/Jianei_Order.h	16;"	d
+TX_BUFFER_SIZE	main.c	37;"	d	file:
+TX_BUFFER_SIZE	module_orders.c	24;"	d	file:
+TimeFlag	include/os_struct.h	/^	unsigned char TimeFlag;$/;"	m	struct:os_netPart
+TransmitRight	main.c	/^static unsigned char TransmitRight[9] = {0x7e,0x00,0x07,0xA6,0x00,0x01,0x00,0x00,0x5a};$/;"	v	file:
+TransmitWrong	main.c	/^static unsigned char TransmitWrong[9] = {0x7e,0x00,0x07,0xF6,0x00,0x00,0x00,0x00,0x5a}; $/;"	v	file:
+UNALIGNED_OK	env/zlib.h	143;"	d
+UPDATE_ABORT	include/dfu_update.h	61;"	d
+UPDATE_CONTINUE	include/dfu_update.h	62;"	d
+UPDATE_DONE	include/dfu_update.h	59;"	d
+UPDATE_FAIL	include/dfu_update.h	65;"	d
+UPDATE_NOW	include/dfu_update.h	60;"	d
+WEBMASTER_DATA_EID_INFO_INDEX	lib_orders/Jianei_Order_exchange_2_ports.c	10;"	d	file:
+WEBMASTER_DATA_MARK_TYPE_INDEX	lib_orders/Jianei_Order_exchange_2_ports.c	7;"	d	file:
+WEBMASTER_DATA_ORDERNUM_INDEX	lib_orders/Jianei_Order_del_1_port.c	3;"	d	file:
+WEBMASTER_DATA_ORDERNUM_INDEX	lib_orders/Jianei_Order_del_2_ports.c	5;"	d	file:
+WEBMASTER_DATA_ORDERNUM_INDEX	lib_orders/Jianei_Order_exchange_2_ports.c	3;"	d	file:
+WEBMASTER_DATA_ORDERNUM_INDEX	lib_orders/Jianei_Order_new_1_port.c	3;"	d	file:
+WEBMASTER_DATA_ORDERNUM_INDEX	lib_orders/Jianei_Order_new_2_ports.c	5;"	d	file:
+WEBMASTER_DATA_ORDERNUM_INDEX	lib_orders/Jianei_Order_new_5_ports.c	3;"	d	file:
+WEBMASTER_DATA_ORDERNUM_LENGTH	lib_orders/Jianei_Order_del_1_port.c	4;"	d	file:
+WEBMASTER_DATA_ORDERNUM_LENGTH	lib_orders/Jianei_Order_del_2_ports.c	6;"	d	file:
+WEBMASTER_DATA_ORDERNUM_LENGTH	lib_orders/Jianei_Order_exchange_2_ports.c	4;"	d	file:
+WEBMASTER_DATA_ORDERNUM_LENGTH	lib_orders/Jianei_Order_new_1_port.c	4;"	d	file:
+WEBMASTER_DATA_ORDERNUM_LENGTH	lib_orders/Jianei_Order_new_2_ports.c	6;"	d	file:
+WEBMASTER_DATA_ORDERNUM_LENGTH	lib_orders/Jianei_Order_new_5_ports.c	4;"	d	file:
+WEBMASTER_DATA_PORTA_INDEX	lib_orders/Jianei_Order_del_1_port.c	7;"	d	file:
+WEBMASTER_DATA_PORTA_INDEX	lib_orders/Jianei_Order_del_2_ports.c	9;"	d	file:
+WEBMASTER_DATA_PORTA_INDEX	lib_orders/Jianei_Order_exchange_2_ports.c	8;"	d	file:
+WEBMASTER_DATA_PORTA_INDEX	lib_orders/Jianei_Order_new_1_port.c	7;"	d	file:
+WEBMASTER_DATA_PORTA_INDEX	lib_orders/Jianei_Order_new_2_ports.c	9;"	d	file:
+WEBMASTER_DATA_PORTA_INDEX	lib_orders/Jianei_Order_new_5_ports.c	8;"	d	file:
+WEBMASTER_DATA_PORTZ_INDEX	lib_orders/Jianei_Order_del_1_port.c	8;"	d	file:
+WEBMASTER_DATA_PORTZ_INDEX	lib_orders/Jianei_Order_del_2_ports.c	10;"	d	file:
+WEBMASTER_DATA_PORTZ_INDEX	lib_orders/Jianei_Order_exchange_2_ports.c	9;"	d	file:
+WEBMASTER_DATA_PORTZ_INDEX	lib_orders/Jianei_Order_new_1_port.c	8;"	d	file:
+WEBMASTER_DATA_PORTZ_INDEX	lib_orders/Jianei_Order_new_2_ports.c	10;"	d	file:
+WEBMASTER_DATA_PORTZ_INDEX	lib_orders/Jianei_Order_new_5_ports.c	9;"	d	file:
+WEBMASTER_DATA_UUID_INDEX	lib_orders/Jianei_Order_del_1_port.c	5;"	d	file:
+WEBMASTER_DATA_UUID_INDEX	lib_orders/Jianei_Order_del_2_ports.c	7;"	d	file:
+WEBMASTER_DATA_UUID_INDEX	lib_orders/Jianei_Order_exchange_2_ports.c	5;"	d	file:
+WEBMASTER_DATA_UUID_INDEX	lib_orders/Jianei_Order_new_1_port.c	5;"	d	file:
+WEBMASTER_DATA_UUID_INDEX	lib_orders/Jianei_Order_new_2_ports.c	7;"	d	file:
+WEBMASTER_DATA_UUID_INDEX	lib_orders/Jianei_Order_new_5_ports.c	5;"	d	file:
+WEBMASTER_DATA_UUID_LENGTH	lib_orders/Jianei_Order_del_1_port.c	6;"	d	file:
+WEBMASTER_DATA_UUID_LENGTH	lib_orders/Jianei_Order_del_2_ports.c	8;"	d	file:
+WEBMASTER_DATA_UUID_LENGTH	lib_orders/Jianei_Order_exchange_2_ports.c	6;"	d	file:
+WEBMASTER_DATA_UUID_LENGTH	lib_orders/Jianei_Order_new_1_port.c	6;"	d	file:
+WEBMASTER_DATA_UUID_LENGTH	lib_orders/Jianei_Order_new_2_ports.c	8;"	d	file:
+WEBMASTER_DATA_UUID_LENGTH	lib_orders/Jianei_Order_new_5_ports.c	6;"	d	file:
+WIN32	env/zlib.h	124;"	d
+WINDOWS	env/zlib.h	120;"	d
+WORDLEN	include/serialconfig.h	3;"	d
+XMK_STR	env/fw_env.c	119;"	d	file:
+ZEXPORT	env/crc32.c	16;"	d	file:
+ZEXPORT	env/zlib.h	276;"	d
+ZEXPORT	env/zlib.h	288;"	d
+ZEXPORT	env/zlib.h	291;"	d
+ZEXPORT	env/zlib.h	301;"	d
+ZEXPORTVA	env/zlib.h	278;"	d
+ZEXPORTVA	env/zlib.h	280;"	d
+ZEXPORTVA	env/zlib.h	289;"	d
+ZEXPORTVA	env/zlib.h	292;"	d
+ZEXPORTVA	env/zlib.h	304;"	d
+ZEXTERN	env/zlib.h	259;"	d
+ZEXTERN	env/zlib.h	261;"	d
+ZEXTERN	env/zlib.h	298;"	d
+ZLIB_H	env/zlib.h	46;"	d
+ZLIB_VERNUM	env/zlib.h	53;"	d
+ZLIB_VERSION	env/zlib.h	52;"	d
+Z_ASCII	env/zlib.h	501;"	d
+Z_BEST_COMPRESSION	env/zlib.h	488;"	d
+Z_BEST_SPEED	env/zlib.h	487;"	d
+Z_BINARY	env/zlib.h	499;"	d
+Z_BLOCK	env/zlib.h	470;"	d
+Z_BUF_ERROR	env/zlib.h	480;"	d
+Z_DATA_ERROR	env/zlib.h	478;"	d
+Z_DEFAULT_COMPRESSION	env/zlib.h	489;"	d
+Z_DEFAULT_STRATEGY	env/zlib.h	496;"	d
+Z_DEFLATED	env/zlib.h	505;"	d
+Z_ERRNO	env/zlib.h	476;"	d
+Z_FILTERED	env/zlib.h	492;"	d
+Z_FINISH	env/zlib.h	469;"	d
+Z_FIXED	env/zlib.h	495;"	d
+Z_FULL_FLUSH	env/zlib.h	468;"	d
+Z_HUFFMAN_ONLY	env/zlib.h	493;"	d
+Z_MEM_ERROR	env/zlib.h	479;"	d
+Z_NEED_DICT	env/zlib.h	475;"	d
+Z_NO_COMPRESSION	env/zlib.h	486;"	d
+Z_NO_FLUSH	env/zlib.h	465;"	d
+Z_NULL	env/zlib.h	508;"	d
+Z_OK	env/zlib.h	473;"	d
+Z_PARTIAL_FLUSH	env/zlib.h	466;"	d
+Z_RLE	env/zlib.h	494;"	d
+Z_STREAM_END	env/zlib.h	474;"	d
+Z_STREAM_ERROR	env/zlib.h	477;"	d
+Z_SYNC_FLUSH	env/zlib.h	467;"	d
+Z_TEXT	env/zlib.h	500;"	d
+Z_UNKNOWN	env/zlib.h	502;"	d
+Z_VERSION_ERROR	env/zlib.h	481;"	d
+Z_ports	module_orders.c	/^	unsigned char Z_ports[MAX_MULTIPIES_NUM][60];$/;"	m	struct:db_store	file:
+Z_stat	module_orders.c	/^	unsigned char Z_stat[MAX_MULTIPIES_NUM];	$/;"	m	struct:db_store	file:
+_DFU_UPDATE_H	include/dfu_update.h	2;"	d
+_TASKQUEUE	include/queue.h	/^typedef struct _TASKQUEUE{$/;"	s
+__BOARD_RESOURCE_H	include/board-resource.h	2;"	d
+__CRC8_H	include/board-alarm.h	2;"	d
+__CRC8_H	include/crc8.h	2;"	d
+__MAINBOARD_H	include/mainBoard.h	2;"	d
+__MOBILE_H	include/mobile.h	2;"	d
+__NETWORK_H	include/network.h	2;"	d
+__NONE_TASK_H	include/none-rtl-task.h	2;"	d
+__OS_STRUCT_H	include/os_struct.h	11;"	d
+__user	env/fw_env.c	38;"	d	file:
+_client	module_orders.c	/^typedef struct _client{$/;"	s	file:
+_gap_var	module_orders.c	/^struct _gap_var{$/;"	s	file:
+_os_gap	module_orders.c	/^struct _os_gap{$/;"	s	file:
+active_flag	env/fw_env.c	/^static unsigned char active_flag = 1;$/;"	v	file:
+add_a_task	queue.c	/^void add_a_task(TASKQUEUE *queue,unsigned char *src)$/;"	f
+adler	env/zlib.h	/^	uLong	adler;	\/* adler32 value of the uncompressed data *\/$/;"	m	struct:z_stream_s
+adler32	env/zlib.h	92;"	d
+alarmInfo	include/os_struct.h	/^	unsigned char alarmInfo[2048];$/;"	m	struct:os_netPart
+alarm_t	module_alarm.c	/^}alarm_t;$/;"	t	typeref:struct:__anon5	file:
+alarmfd	main.c	/^int alarmfd = 0, uart0fd = 0, rtcfd = 0,uart1fd = 0;$/;"	v
+alarminfo_entires	module_alarm.c	/^volatile unsigned int alarminfo_entires = 0;$/;"	v
+alloc_func	env/zlib.h	/^typedef voidpf (*alloc_func) OF((voidpf opaque, uInt items, uInt size));$/;"	t
+alloc_func	env/zlib.h	97;"	d
+another_frame	module_orders.c	/^struct _os_gap another_frame;$/;"	v	typeref:struct:_os_gap
+auth_code	include/os_struct.h	/^    unsigned char auth_code[32];$/;"	m	struct:os_boardinfo_t
+avail_in	env/zlib.h	/^	uInt	avail_in; \/* number of bytes available at next_in *\/$/;"	m	struct:z_stream_s
+avail_out	env/zlib.h	/^	uInt	avail_out; \/* remaining free space at next_out *\/$/;"	m	struct:z_stream_s
+batchOrderStruct	include/Jianei_Order.h	/^struct batchOrderStruct{$/;"	s
+batchs_entires	include/Jianei_Order.h	/^	uint8_t batchs_entires;$/;"	m	struct:batchOrderStruct
+board_info_t	include/os_struct.h	/^}board_info_t;$/;"	t	typeref:struct:os_boardinfo_t
+boardcfg	main.c	/^board_info_t boardcfg;$/;"	v
+box_id	include/os_struct.h	/^	unsigned char box_id[30];$/;"	m	struct:os_boardinfo_t
+calc_collect_time_deadline	module_resource.c	/^static uint32_t calc_collect_time_deadline(uint8_t devicesnum)$/;"	f	file:
+calccrc8	lib_orders/Jianei_common.c	/^uint8_t calccrc8(uint8_t* ptr,uint16_t len)$/;"	f
+calccrc8	module_orders.c	/^static unsigned char calccrc8(unsigned char* ptr,unsigned short len)$/;"	f	file:
+calccrc8	module_resource.c	/^static unsigned char calccrc8(uint8_t* ptr,uint32_t len)$/;"	f	file:
+cancle	module_orders.c	/^	unsigned char cancle[50];$/;"	m	struct:_client	file:
+cb_func	env/zlib.h	/^typedef void   (*cb_func)    OF((Bytef *buf, uInt len));$/;"	t
+cf8051	dfu_update/update_cf8051.c	/^struct DFU_CF8051 cf8051;$/;"	v	typeref:struct:DFU_CF8051
+cf8051_enter_bootloader_stage_handle	dfu_update/update_cf8051.c	/^static int cf8051_enter_bootloader_stage_handle(unsigned char *uart_stream)$/;"	f	file:
+cf8051_enter_reboot_stage_handle	dfu_update/update_cf8051.c	/^static int cf8051_enter_reboot_stage_handle(unsigned char *uart_stream)$/;"	f	file:
+cf8051_startup_service_routine	dfu_update/update_cf8051.c	/^static int cf8051_startup_service_routine(void)$/;"	f	file:
+cf8051_write_nflash_stage_handle	dfu_update/update_cf8051.c	/^static int cf8051_write_nflash_stage_handle(unsigned char *uart_stream)$/;"	f	file:
+charf	env/zlib.h	/^typedef char  FAR charf;$/;"	t
+charf	env/zlib.h	105;"	d
+client	module_orders.c	/^static CLIENT client[5];$/;"	v	file:
+client_sockfd	include/Jiajian_Order.h	/^	int client_sockfd[5];\/* remote client's socket fd*\/$/;"	m	struct:jiajian_struct
+clientfd	module_orders.c	/^	volatile int clientfd;$/;"	m	struct:_client	file:
+clientnums	module_orders.c	/^	volatile unsigned char clientnums;$/;"	m	struct:_gap_var	file:
+cmd_0x1101_read_device_info	main.c	/^static void cmd_0x1101_read_device_info(unsigned char *data, int connect_fd, uint8_t data_type)$/;"	f	file:
+cmd_0x1102_read_box_or_maf_info	main.c	/^static void cmd_0x1102_read_box_or_maf_info(unsigned char *data, int connect_fd, unsigned char data_type)$/;"	f	file:
+cmd_0x1103_read_frame_info	main.c	/^static void cmd_0x1103_read_frame_info(unsigned char *data, int connect_fd, unsigned char data_type)$/;"	f	file:
+cmd_0x1104_get_board_info	main.c	/^static void cmd_0x1104_get_board_info(unsigned char *data, int connect_fd, int data_type)$/;"	f	file:
+cmd_0x1105_get_ports_info	main.c	/^static void cmd_0x1105_get_ports_info(unsigned char *data, int connect_fd, int data_type)$/;"	f	file:
+cmd_0x1106_get_version_info	main.c	/^static void cmd_0x1106_get_version_info(unsigned char *data, int connect_fd, int data_type)$/;"	f	file:
+cmd_0x1107_software_upgrade	main.c	/^static void cmd_0x1107_software_upgrade(unsigned char *data, int connect_fd, int data_type)$/;"	f	file:
+cmd_0x1108_write_eids_to_port	main.c	/^static void cmd_0x1108_write_eids_to_port(unsigned char *data, int connect_fd, int data_type)$/;"	f	file:
+cmd_0x110a_opreate_port_led	main.c	/^static void cmd_0x110a_opreate_port_led(unsigned char *data, int connect_fd, int data_type)$/;"	f	file:
+cmd_0x110b_write_device_config	main.c	/^static void cmd_0x110b_write_device_config(unsigned char *data, int connect_fd, unsigned char data_type)$/;"	f	file:
+cmd_0x1120_get_resource	module_resource.c	/^int cmd_0x1120_get_resource(unsigned char *dat, int sockfd)$/;"	f
+cmd_0x1124_read_auth_info	main.c	/^static void cmd_0x1124_read_auth_info(unsigned char *data, int connect_fd)$/;"	f	file:
+cmd_0x1125_restart_device	main.c	/^static void cmd_0x1125_restart_device(unsigned char *data, int connect_fd)$/;"	f	file:
+cmd_get	dfu_update/ftp.c	/^static int cmd_get(int fd, char* cmd,unsigned char *src, int fversion)$/;"	f	file:
+cmd_length	include/os_struct.h	/^	unsigned short   cmd_length;$/;"	m	struct:__anon2
+cmd_port	include/dfu_update.h	/^	uint32_t cmd_port;$/;"	m	struct:DFU_UPDATE
+cmd_quit	dfu_update/ftp.c	/^static void cmd_quit(int fd)$/;"	f	file:
+comm_max	env/zlib.h	/^	uInt	comm_max; \/* space at comment (only when reading header) *\/$/;"	m	struct:gz_header_s
+comment	env/zlib.h	/^	Bytef	*comment; \/* pointer to zero-terminated comment or Z_NULL *\/$/;"	m	struct:gz_header_s
+comparisons	module_orders.c	/^}comparisons;$/;"	v	typeref:struct:relations
+compress	env/zlib.h	88;"	d
+compress2	env/zlib.h	89;"	d
+compressBound	env/zlib.h	90;"	d
+connect_stats	include/os_struct.h	/^	unsigned char    connect_stats[16];$/;"	m	struct:__anon1
+const	env/zlib.h	175;"	d
+count	include/queue.h	/^	unsigned int  count;$/;"	m	struct:_TASKQUEUE
+count	module_orders.c	/^	unsigned char count[12];$/;"	m	struct:db_store	file:
+crc	env/fw_env.c	/^	uint32_t		*crc;$/;"	m	struct:environment	file:
+crc	env/fw_env.c	/^	uint32_t	crc;	\/* CRC32 over data bytes    *\/$/;"	m	struct:env_image_redundant	file:
+crc	env/fw_env.c	/^	uint32_t	crc;	\/* CRC32 over data bytes    *\/$/;"	m	struct:env_image_single	file:
+crc16_calc	crc16_ccitt.c	/^unsigned short crc16_calc(unsigned char* ptr, unsigned int len)$/;"	f
+crc16_ccitt_table	crc16_ccitt.c	/^unsigned short crc16_ccitt_table[256] ={$/;"	v
+crc16_check	crc16_ccitt.c	/^unsigned char crc16_check(unsigned char  *data, unsigned short datalen)$/;"	f
+crc32	env/crc32.c	/^uint32_t ZEXPORT crc32 (uint32_t crc, const Bytef *buf, uInt len)$/;"	f
+crc32	env/zlib.h	93;"	d
+crc32_no_comp	env/crc32.c	/^uint32_t ZEXPORT crc32_no_comp(uint32_t crc, const Bytef *buf, uInt len)$/;"	f
+crc32_wd	env/crc32.c	/^uint32_t ZEXPORT crc32_wd (uint32_t crc,$/;"	f
+crc8	crc8.c	/^unsigned char  crc8(unsigned char* ptr,unsigned short len)$/;"	f
+crc8_sim3u1xxx_data	main.c	/^static void crc8_sim3u1xxx_data(unsigned char c_frame)$/;"	f	file:
+crcCheckout	crc8.c	/^unsigned char  crcCheckout(unsigned char * srcData)$/;"	f
+crcRight	main.c	/^unsigned char crcRight[9] = {0x7e,0x00,0x07,0xA6,0x00,0x01,0x00,0x00,0x5a};$/;"	v
+crcWrong	main.c	/^unsigned char crcWrong[9] = {0x7e,0x00,0x07,0xF6,0x00,0x00,0x00,0x00,0x5a}; $/;"	v
+crc_table	env/crc32.c	/^local const uint32_t crc_table[256] = {$/;"	v
+crc_table	env/crc32.c	/^local uint32_t crc_table[256];$/;"	v
+crc_table_empty	env/crc32.c	/^local int crc_table_empty = 1;$/;"	v
+cs8900_temp_data	main.c	/^unsigned char cs8900_temp_data[300] = {'\\0'}; $/;"	v
+dat	module_alarm.c	/^	unsigned char  dat[4096];$/;"	m	struct:__anon5	file:
+dat	module_orders.c	/^    uint8_t dat[600];$/;"	m	struct:__anon3	file:
+data	env/fw_env.c	/^	char			*data;$/;"	m	struct:environment	file:
+data	env/fw_env.c	/^	char		data[];$/;"	m	struct:env_image_redundant	file:
+data	env/fw_env.c	/^	char		data[];$/;"	m	struct:env_image_single	file:
+data	include/queue.h	/^	unsigned char data[SIZE];$/;"	m	struct:_TASKQUEUE
+data	module_orders.c	/^	unsigned char data[50];$/;"	m	struct:_client	file:
+data_alarm	module_alarm.c	/^unsigned char data_alarm[DATA_SZ];$/;"	v
+data_packet	dfu_update/ftp.c	/^uint8_t data_packet[70][520];$/;"	v
+data_packet_num	include/dfu_update.h	/^	uint32_t data_packet_num;$/;"	m	struct:DFU_UPDATE
+data_port	include/dfu_update.h	/^	uint32_t data_port;$/;"	m	struct:DFU_UPDATE
+data_type	env/zlib.h	/^	int	data_type;	\/* best guess about the data type:$/;"	m	struct:z_stream_s
+databits	include/serialconfig.h	/^	unsigned char databits;$/;"	m	struct:serial_config
+datbuf	module_resource.c	/^	uint8_t  datbuf[2200];$/;"	m	struct:__anon4	file:
+datlen	module_alarm.c	/^	unsigned short datlen;$/;"	m	struct:__anon5	file:
+db_store	module_orders.c	/^struct db_store{$/;"	s	file:
+ddk_data	include/Jiajian_Order.h	/^	unsigned char ddk_data[5][600];$/;"	m	struct:jiajian_struct
+ddk_ipaddr	include/Jiajian_Order.h	/^	unsigned char ddk_ipaddr[5][4];$/;"	m	struct:jiajian_struct
+ddk_port_eids	include/Jianei_Order.h	/^	uint8_t ddk_port_eids[MAX_ENTIRES][40];$/;"	m	struct:batchOrderStruct
+ddk_port_info	include/Jianei_Order.h	/^	uint8_t ddk_port_info[MAX_ENTIRES][10];$/;"	m	struct:batchOrderStruct
+ddk_port_stat	include/Jianei_Order.h	/^	uint8_t ddk_port_stat[MAX_ENTIRES*2];$/;"	m	struct:batchOrderStruct
+ddk_ports	include/Jiajian_Order.h	/^	unsigned char ddk_ports[5][10];$/;"	m	struct:jiajian_struct
+debug_net_printf	lib_orders/debug-net-printf.c	/^int debug_net_printf(unsigned char *src,int src_len,int num)$/;"	f
+default_environment	env/fw_env.c	/^static char default_environment[] = {$/;"	v	file:
+deflate	env/zlib.h	68;"	d
+deflateBound	env/zlib.h	78;"	d
+deflateCopy	env/zlib.h	75;"	d
+deflateEnd	env/zlib.h	69;"	d
+deflateInit2_	env/zlib.h	73;"	d
+deflateInit_	env/zlib.h	67;"	d
+deflateParams	env/zlib.h	77;"	d
+deflatePrime	env/zlib.h	79;"	d
+deflateReset	env/zlib.h	76;"	d
+deflateSetDictionary	env/zlib.h	74;"	d
+detect_eid_exist_or_not	module_orders.c	/^static int detect_eid_exist_or_not(unsigned char *src)$/;"	f	file:
+dev_current	env/fw_env.c	/^static int dev_current;$/;"	v	file:
+dev_gateway	include/os_struct.h	/^	unsigned char dev_gateway[4];$/;"	m	struct:os_boardinfo_t
+dev_ip	include/os_struct.h	/^	unsigned char dev_ip[4];$/;"	m	struct:os_boardinfo_t
+dev_location	include/os_struct.h	/^	unsigned char dev_location[128];$/;"	m	struct:os_boardinfo_t
+dev_mac	include/os_struct.h	/^	unsigned char dev_mac[6];$/;"	m	struct:os_boardinfo_t
+dev_maf	include/os_struct.h	/^	unsigned char dev_maf[200];$/;"	m	struct:os_boardinfo_t
+dev_netmask	include/os_struct.h	/^	unsigned char dev_netmask[4];$/;"	m	struct:os_boardinfo_t
+dev_owner	include/os_struct.h	/^	unsigned char dev_owner[200];$/;"	m	struct:os_boardinfo_t
+dev_portnum	include/os_struct.h	/^	unsigned char dev_portnum[2];$/;"	m	struct:os_boardinfo_t
+dev_update_calccrc8	dfu_update/ftp.c	/^unsigned char dev_update_calccrc8(unsigned char *ptr, unsigned short len)$/;"	f
+deviceName	include/os_struct.h	/^	unsigned char deviceName[80];$/;"	m	struct:os_boardinfo
+deviceType	include/os_struct.h	/^	unsigned char deviceType;$/;"	m	struct:os_boardinfo
+device_name	include/os_struct.h	/^	unsigned char device_name[80];$/;"	m	struct:os_boardinfo_t
+devname	env/fw_env.c	/^	char devname[16];		\/* Device name *\/$/;"	m	struct:envdev_s	file:
+devoff	env/fw_env.c	/^	ulong devoff;			\/* Device offset *\/$/;"	m	struct:envdev_s	file:
+dfu	dfu_update/ftp.c	/^struct DFU_UPDATE dfu;$/;"	v	typeref:struct:DFU_UPDATE
+dfu_distribute_dfu_file_data	dfu_update/ftp.c	/^static void dfu_distribute_dfu_file_data(void)$/;"	f	file:
+dfu_request_cmd_type_0x01_handle_routine	dfu_update/ftp.c	/^static uint8_t dfu_request_cmd_type_0x01_handle_routine(uint8_t *htmldat, int fversion, int sockfd)$/;"	f	file:
+dfu_request_cmd_type_0x02_handle_routine	dfu_update/ftp.c	/^static uint8_t dfu_request_cmd_type_0x02_handle_routine(uint8_t *htmldat, int fversion, int sockfd)$/;"	f	file:
+dfu_request_cmd_type_0x03_handle_routine	dfu_update/ftp.c	/^static uint8_t dfu_request_cmd_type_0x03_handle_routine(uint8_t *htmldat, int fversion, int sockfd)$/;"	f	file:
+dfu_request_cmd_type_0x04_handle_routine	dfu_update/ftp.c	/^static uint8_t dfu_request_cmd_type_0x04_handle_routine(uint8_t *htmldat, int fversion, int sockfd)$/;"	f	file:
+dfu_start_board_software_update_routine	dfu_update/ftp.c	/^static void dfu_start_board_software_update_routine(void)$/;"	f	file:
+dfu_transform_old_data_format_to_new_protocol_fromat	dfu_update/ftp.c	/^static uint16_t dfu_transform_old_data_format_to_new_protocol_fromat(unsigned char *olddat, unsigned short olddat_len,$/;"	f	file:
+disconnect_times	include/os_struct.h	/^	unsigned char disconnect_times[16];$/;"	m	struct:__anon1
+done	env/zlib.h	/^	int	done; \/* true when done reading gzip header (not used$/;"	m	struct:gz_header_s
+download_a_task	queue.c	/^void download_a_task(TASKQUEUE *queue,unsigned char *pdata)$/;"	f
+dummy	env/zlib.h	/^	struct internal_state {int dummy;}; \/* hack for buggy compilers *\/$/;"	m	struct:internal_state
+dyb_ouput	include/Jianei_Order.h	/^	uint8_t dyb_ouput[SIZE];$/;"	m	struct:batchOrderStruct
+dyb_ouput	include/Jianei_Order.h	/^	uint8_t dyb_ouput[SIZE];$/;"	m	struct:orderStruct
+dyb_ouput	module_orders.c	/^	uint8_t dyb_ouput[SIZE];$/;"	m	struct:orderStruct	file:
+dyb_portinfo	module_resource.c	/^	uint8_t dyb_portinfo[INFOSIZE*MAXFRAME+INFO_START_INDEX];$/;"	m	struct:FramePortInfos	file:
+eid_port1	include/Jianei_Order.h	/^	uint8_t eid_port1[SIZE];$/;"	m	struct:orderStruct
+eid_port1	module_orders.c	/^	uint8_t eid_port1[SIZE];$/;"	m	struct:orderStruct	file:
+eid_port2	include/Jianei_Order.h	/^	uint8_t eid_port2[SIZE];$/;"	m	struct:orderStruct
+eid_port2	module_orders.c	/^	uint8_t eid_port2[SIZE];$/;"	m	struct:orderStruct	file:
+empty_queue	queue.c	/^int empty_queue(TASKQUEUE *queue)$/;"	f
+entires	module_orders.c	/^	unsigned char entires;$/;"	m	struct:db_store	file:
+entires	module_orders.c	/^	volatile unsigned char entires;$/;"	m	struct:_gap_var	file:
+env_image_redundant	env/fw_env.c	/^struct env_image_redundant {$/;"	s	file:
+env_image_single	env/fw_env.c	/^struct env_image_single {$/;"	s	file:
+env_init	env/fw_env.c	/^int env_init (void)$/;"	f
+env_sectors	env/fw_env.c	/^	ulong env_sectors;		\/* number of environment sectors *\/$/;"	m	struct:envdev_s	file:
+env_size	env/fw_env.c	/^	ulong env_size;			\/* environment size *\/$/;"	m	struct:envdev_s	file:
+envdev_s	env/fw_env.c	/^struct envdev_s {$/;"	s	file:
+envdevices	env/fw_env.c	/^static struct envdev_s envdevices[2] =$/;"	v	typeref:struct:envdev_s	file:
+environment	env/fw_env.c	/^static struct environment environment = {$/;"	v	typeref:struct:environment	file:
+environment	env/fw_env.c	/^struct environment {$/;"	s	file:
+envmatch	env/fw_env.c	/^static char *envmatch (char * s1, char * s2)$/;"	f	file:
+erase_size	env/fw_env.c	/^	ulong erase_size;		\/* device erase size *\/$/;"	m	struct:envdev_s	file:
+error	include/mobile.h	/^	unsigned char error;$/;"	m	struct:uart1_data
+error_exit	main.c	/^static void error_exit(int errorPlace)$/;"	f	file:
+eth_frame_is_error	include/network.h	/^unsigned char eth_frame_is_error[23] = {0x7e,0x00,0x15,0xf6,0x00};$/;"	v
+eth_frame_is_right	include/network.h	/^unsigned char eth_frame_is_right[23] = {0x7e,0x00,0x15,0xa6,0x00};$/;"	v
+extra	env/zlib.h	/^	Bytef	*extra;	\/* pointer to extra field or Z_NULL if none *\/$/;"	m	struct:gz_header_s
+extra_len	env/zlib.h	/^	uInt	extra_len; \/* extra field length (valid if extra != Z_NULL) *\/$/;"	m	struct:gz_header_s
+extra_max	env/zlib.h	/^	uInt	extra_max; \/* space at extra (only when reading header) *\/$/;"	m	struct:gz_header_s
+fast_repost_data_to_sim3u146_board	main.c	/^static int fast_repost_data_to_sim3u146_board(void)$/;"	f	file:
+filename	include/dfu_update.h	/^	uint8_t filename[SZ_256];$/;"	m	struct:DFU_UPDATE
+filepath	include/dfu_update.h	/^	uint8_t filepath[SZ_256];$/;"	m	struct:DFU_UPDATE
+filling_data_and_send_to_webmaster	dfu_update/update_cf8051.c	/^static void filling_data_and_send_to_webmaster(void)$/;"	f	file:
+filling_data_and_send_to_webmaster	dfu_update/update_sim3u1xx.c	/^static void filling_data_and_send_to_webmaster(void)$/;"	f	file:
+find_which_cf8051_board_needs_to_update	dfu_update/update_cf8051.c	/^static int find_which_cf8051_board_needs_to_update(uint8_t *buff)$/;"	f	file:
+find_which_sim3u146_board_needs_to_update	dfu_update/update_sim3u1xx.c	/^static int find_which_sim3u146_board_needs_to_update(uint8_t *buff)$/;"	f	file:
+flag_scheme	env/fw_env.c	/^	enum flag_scheme	flag_scheme;$/;"	m	struct:environment	typeref:enum:environment::flag_scheme	file:
+flag_scheme	env/fw_env.c	/^enum flag_scheme {$/;"	g	file:
+flags	env/fw_env.c	/^	unsigned char		*flags;$/;"	m	struct:environment	file:
+flags	env/fw_env.c	/^	unsigned char	flags;	\/* active or obsolete *\/$/;"	m	struct:env_image_redundant	file:
+flash_bad_block	env/fw_env.c	/^static int flash_bad_block (int fd, uint8_t mtd_type, loff_t *blockstart)$/;"	f	file:
+flash_flag_obsolete	env/fw_env.c	/^static int flash_flag_obsolete (int dev, int fd, off_t offset)$/;"	f	file:
+flash_io	env/fw_env.c	/^static int flash_io (int mode)$/;"	f	file:
+flash_read	env/fw_env.c	/^static int flash_read (int fd)$/;"	f	file:
+flash_read_buf	env/fw_env.c	/^static int flash_read_buf (int dev, int fd, void *buf, size_t count,$/;"	f	file:
+flash_write	env/fw_env.c	/^static int flash_write (int fd_current, int fd_target, int dev_target)$/;"	f	file:
+flash_write_buf	env/fw_env.c	/^static int flash_write_buf (int dev, int fd, void *buf, size_t count,$/;"	f	file:
+flushTXorRX	config-serial.c	/^static void flushTXorRX(int fd, int action)$/;"	f	file:
+frameNums	include/os_struct.h	/^	unsigned char frameNums;$/;"	m	struct:os_boardinfo
+frame_status	include/os_struct.h	/^typedef struct frame_status{$/;"	s
+frame_t	include/os_struct.h	/^}frame_t;$/;"	t	typeref:struct:__anon1
+frameactive	include/os_struct.h	/^	unsigned char frameactive[24];$/;"	m	struct:os_boardinfo
+framestat	include/os_struct.h	/^	unsigned char framestat[16];$/;"	m	struct:frame_status
+free_func	env/zlib.h	/^typedef void   (*free_func)  OF((voidpf opaque, voidpf address, uInt size));$/;"	t
+free_func	env/zlib.h	98;"	d
+front	include/queue.h	/^	unsigned int  front;$/;"	m	struct:_TASKQUEUE
+ftp_client	dfu_update/ftp.c	/^int ftp_client(unsigned char *htmldat, int fversion, int fd)	$/;"	f
+fversion	include/dfu_update.h	/^	uint8_t fversion[SZ_256];$/;"	m	struct:DFU_UPDATE
+fw_getenv	env/fw_env.c	/^char *fw_getenv (char *name)$/;"	f
+fw_printenv	env/fw_env.c	/^int fw_printenv (char *envname)$/;"	f
+fw_saveenv	env/fw_env.c	/^int fw_saveenv(void)$/;"	f
+fw_setenv	env/fw_env.c	/^int fw_setenv (char *name, char *setenv_val)$/;"	f
+gap_recv_routine	module_orders.c	/^void *gap_recv_routine(void *arg)$/;"	f
+gap_recv_thid	module_orders.c	/^void *gap_recv_thid(void *arg)$/;"	f
+gateway	include/os_struct.h	/^	unsigned char gateway[4];$/;"	m	struct:os_boardinfo
+getReplyCode	dfu_update/ftp.c	/^static int getReplyCode(int sockfd)$/;"	f	file:
+get_config	env/fw_env.c	/^static int get_config (char *fname)$/;"	f	file:
+get_crc_table	env/zlib.h	94;"	d
+getenvsize	env/fw_env.c	/^static inline ulong getenvsize (void)$/;"	f	file:
+gucv_odf_ports_RealtimeStat	module_alarm.c	/^unsigned char gucv_odf_ports_RealtimeStat[MAX_FRAMES*100]; $/;"	v
+gz_header	env/zlib.h	/^} gz_header;$/;"	t	typeref:struct:gz_header_s
+gz_header_s	env/zlib.h	/^typedef struct gz_header_s {$/;"	s
+gz_headerp	env/zlib.h	/^typedef gz_header FAR *gz_headerp;$/;"	t
+hcrc	env/zlib.h	/^	int	hcrc; \/* true if there was or will be a header crc *\/$/;"	m	struct:gz_header_s
+hd_version	include/os_struct.h	/^	unsigned short hd_version;$/;"	m	struct:os_boardinfo
+host_abort_action_handle_routine	lib_orders/Jiajian_Order_new_2_ports.c	/^static void host_abort_action_handle_routine(int errno)$/;"	f	file:
+host_data_stream_handle_routine	lib_orders/Jiajian_Order_new_2_ports.c	/^static int host_data_stream_handle_routine(unsigned char *data_stream, int webmaster_sockfd)$/;"	f	file:
+i3_alarm	module_alarm.c	/^alarm_t i3_alarm;$/;"	v
+i3_dat	module_alarm.c	/^	unsigned char  i3_dat[4096];$/;"	m	struct:__anon5	file:
+i3_data_t	module_resource.c	/^}i3_data_t;$/;"	t	typeref:struct:__anon4	file:
+i3_format	module_resource.c	/^static i3_data_t i3_format;$/;"	v	file:
+i3_len	module_alarm.c	/^	unsigned short i3_len;$/;"	m	struct:__anon5	file:
+i3_thid	module_resource.c	/^	pthread_t i3_thid;$/;"	m	struct:__anon4	file:
+idex	include/os_struct.h	/^	unsigned short idex;$/;"	m	struct:os_uart0_struct
+image	env/fw_env.c	/^	void			*image;$/;"	m	struct:environment	file:
+in_func	env/zlib.h	99;"	d
+inflate	env/zlib.h	71;"	d
+inflateBack	env/zlib.h	86;"	d
+inflateBackEnd	env/zlib.h	87;"	d
+inflateCopy	env/zlib.h	84;"	d
+inflateEnd	env/zlib.h	72;"	d
+inflateInit	env/zlib.h	685;"	d
+inflateInit2	env/zlib.h	687;"	d
+inflateInit2_	env/zlib.h	80;"	d
+inflateInit_	env/zlib.h	70;"	d
+inflateReset	env/zlib.h	85;"	d
+inflateSetDictionary	env/zlib.h	81;"	d
+inflateSync	env/zlib.h	82;"	d
+inflateSyncPoint	env/zlib.h	83;"	d
+init_gap_socket	module_orders.c	/^static int init_gap_socket(unsigned char *ip)$/;"	f	file:
+init_net	main.c	/^static void init_net(board_info_t *cfg)$/;"	f	file:
+init_queue	queue.c	/^void init_queue(TASKQUEUE *queue)$/;"	f
+init_version	main.c	/^static void init_version(void)$/;"	f	file:
+internal_state	env/zlib.h	/^	struct internal_state {int dummy;}; \/* hack for buggy compilers *\/$/;"	s
+intf	env/zlib.h	/^typedef int   FAR intf;$/;"	t
+intf	env/zlib.h	106;"	d
+ipaddr	include/os_struct.h	/^	unsigned char ipaddr[4];$/;"	m	struct:os_boardinfo
+isArrayEmpty	lib_orders/Jianei_common.c	/^int isArrayEmpty(uint8_t *src,uint16_t len)$/;"	f
+isArrayEmpty	module_orders.c	/^static int isArrayEmpty(unsigned char *src,unsigned short len)$/;"	f	file:
+jiajian_order	lib_orders/Jiajian_Order_new_2_ports.c	/^static struct jiajian_struct jiajian_order;$/;"	v	typeref:struct:jiajian_struct	file:
+jiajian_struct	include/Jiajian_Order.h	/^struct jiajian_struct {$/;"	s
+jkb_stats	module_resource.c	/^   uint32_t jkb_stats[MAXFRAME];     \/* jkb_stats这个数组用来存放那些要采集的框，在采集进行中的状态变化*\/$/;"	m	struct:FramePortInfos	file:
+led_test	main.c	/^static int led_test(unsigned char *src)$/;"	f	file:
+length	module_orders.c	/^	unsigned char length;$/;"	m	struct:_client	file:
+local	env/crc32.c	15;"	d	file:
+local_data_transform_to_i3_format_data	lib_orders/Jianei_common.c	/^static uint16_t local_data_transform_to_i3_format_data(unsigned char *local_dat, unsigned char* i3_dat, uint16_t dat_len)$/;"	f	file:
+mac	include/os_struct.h	/^	unsigned char mac[6];$/;"	m	struct:os_boardinfo
+maf_id	include/os_struct.h	/^	unsigned char maf_id[3];$/;"	m	struct:os_boardinfo_t
+main	main.c	/^int main(int argc,char *argv[])$/;"	f
+make_crc_table	env/crc32.c	/^local void make_crc_table()$/;"	f
+manufacturer	include/os_struct.h	/^	unsigned char manufacturer[4];$/;"	m	struct:os_boardinfo
+maxfd	module_orders.c	/^	int maxfd;$/;"	m	struct:_gap_var	file:
+min	env/fw_env.c	47;"	d	file:
+mobile_cmd_0x0000_quary_0xa6_reply	main.c	/^static void mobile_cmd_0x0000_quary_0xa6_reply(unsigned char *mobile_cmd_quary)$/;"	f	file:
+mobile_cmd_0x0000_quary_0xf6_reply	main.c	/^static void mobile_cmd_0x0000_quary_0xf6_reply(unsigned char *mobile_cmd_quary)$/;"	f	file:
+mobile_cmd_0x0000_server_service_routine	main.c	/^static void mobile_cmd_0x0000_server_service_routine(unsigned char *dat, int sockfd)$/;"	f	file:
+mobile_frame_is_error	include/mobile.h	/^unsigned char  mobile_frame_is_error[6] = {0x7e,0x00,0x4,0xf6,0x1a,0x5a};$/;"	v
+mobile_frame_is_right	include/mobile.h	/^unsigned char  mobile_frame_is_right[25] = {0x7e,0x00,0x17,0x0d,0xa6};$/;"	v
+mobile_mutex	main.c	/^pthread_mutex_t mobile_mutex       = PTHREAD_MUTEX_INITIALIZER; $/;"	v
+mobile_socket_i3_recv_analyse_protocol	main.c	/^static uint16_t mobile_socket_i3_recv_analyse_protocol(uint8_t *i3_data, uint8_t *local_data, uint16_t datalen)$/;"	f	file:
+mobile_temp_data	main.c	/^unsigned char mobile_temp_data[500] = {'\\0'};$/;"	v
+module_mainBoard_Webmaster_Part_orderOperations_handle	module_orders.c	/^int module_mainBoard_Webmaster_Part_orderOperations_handle(unsigned char *src,int sock,$/;"	f
+module_mainBoard_abortinfo_handle	module_alarm.c	/^int module_mainBoard_abortinfo_handle(unsigned char *src,unsigned char closedalarm)$/;"	f
+module_mainBoard_orderOperations_handle	module_orders.c	/^int module_mainBoard_orderOperations_handle(unsigned char *src,$/;"	f
+module_mainBoard_ports_appoint_handle	module_orders.c	/^int module_mainBoard_ports_appoint_handle(unsigned char *src,$/;"	f
+module_mainBoard_resource_handle	module_resource.c	/^int module_mainBoard_resource_handle(unsigned char *src,int client_fd)$/;"	f
+module_order_tasks_to_sim3u1xx_board	lib_orders/Jianei_common.c	/^int module_order_tasks_to_sim3u1xx_board(void)$/;"	f
+msg	env/zlib.h	/^	char	*msg;	\/* last error message, NULL if no error *\/$/;"	m	struct:z_stream_s
+mtd_type	env/fw_env.c	/^	uint8_t mtd_type;		\/* type of the MTD device *\/$/;"	m	struct:envdev_s	file:
+mutiply	module_orders.c	/^}mutiply;$/;"	v	typeref:struct:db_store
+myStringcmp	lib_orders/Jianei_common.c	/^int myStringcmp(uint8_t *src,uint8_t *dst,uint16_t len)$/;"	f
+myStringcmp	module_orders.c	/^static int myStringcmp(unsigned char *src,unsigned char *dst,unsigned short len)$/;"	f	file:
+name	env/zlib.h	/^	Bytef	*name; \/* pointer to zero-terminated file name or Z_NULL *\/$/;"	m	struct:gz_header_s
+name_arr	config-serial.c	/^static int name_arr[] = {230400, 115200, 57600, 38400, 19200, 9600, 4800, 2400, 1200, 300,$/;"	v	file:
+name_max	env/zlib.h	/^	uInt	name_max; \/* space at name (only when reading header) *\/$/;"	m	struct:gz_header_s
+netDatacrccheck	module_orders.c	/^static unsigned char  netDatacrccheck(unsigned char * srcData,unsigned short datalen)$/;"	f	file:
+net_alive	include/network.h	/^unsigned char net_alive[6] = {0x7e,0x00,0x04,0x21,0x89,0x5a};$/;"	v
+net_cmd_0x0000_server_service_routine	main.c	/^static void net_cmd_0x0000_server_service_routine(unsigned char *dat, int sockfd)$/;"	f	file:
+net_debug	net_debug.c	/^void net_debug(unsigned char *data, uint32_t len)$/;"	f
+net_socket_i3_recv_analyse_protocol	dfu_update/ftp.c	/^static uint16_t net_socket_i3_recv_analyse_protocol(uint8_t *i3_data, uint8_t *local_data, uint16_t datalen)$/;"	f	file:
+net_socket_i3_recv_analyse_protocol	main.c	/^static uint16_t net_socket_i3_recv_analyse_protocol(uint8_t *i3_data, uint8_t *local_data, uint16_t datalen)$/;"	f	file:
+netmask	include/os_struct.h	/^	unsigned char netmask[4];$/;"	m	struct:os_boardinfo
+new_array	include/os_struct.h	/^	unsigned char    new_array[2048];$/;"	m	struct:__anon2
+new_data	include/dfu_update.h	/^	uint8_t new_data[SZ_2K];$/;"	m	struct:DFU_UPDATE
+new_data_len	include/dfu_update.h	/^	uint16_t new_data_len;$/;"	m	struct:DFU_UPDATE
+new_gap	module_orders.c	/^}new_gap;$/;"	v	typeref:struct:_os_gap
+new_length	include/os_struct.h	/^	unsigned short   new_length;$/;"	m	struct:__anon2
+next_in	env/zlib.h	/^	Bytef	*next_in; \/* next input byte *\/$/;"	m	struct:z_stream_s
+next_out	env/zlib.h	/^	Bytef	*next_out; \/* next output byte should be put there *\/$/;"	m	struct:z_stream_s
+obsolete_flag	env/fw_env.c	/^static unsigned char obsolete_flag = 0;$/;"	v	file:
+odf	main.c	/^DevStatus odf;$/;"	v
+old_array	include/os_struct.h	/^	unsigned char    old_array[1024];$/;"	m	struct:__anon2
+old_data	include/dfu_update.h	/^	uint8_t old_data[SZ_2K];$/;"	m	struct:DFU_UPDATE
+old_data_len	include/dfu_update.h	/^	uint16_t old_data_len;$/;"	m	struct:DFU_UPDATE
+old_style	module_orders.c	/^order_data_t old_style;$/;"	v
+old_version_alarm_data_2_new_i3_data_format	module_alarm.c	/^static uint16_t old_version_alarm_data_2_new_i3_data_format(uint8_t *olddat_buf, uint16_t olddat_len, uint8_t *newdat_buf)$/;"	f	file:
+old_version_data_2_new_i3_data_format	module_resource.c	/^static uint16_t old_version_data_2_new_i3_data_format(uint8_t *olddat_buf, uint16_t olddat_len,$/;"	f	file:
+olddat	module_resource.c	/^	uint8_t  olddat[1100];$/;"	m	struct:__anon4	file:
+oldoptions	config-serial.c	/^static struct termios oldoptions;$/;"	v	typeref:struct:termios	file:
+opaque	env/zlib.h	/^	voidpf	opaque;	\/* private data object passed to zalloc and zfree *\/$/;"	m	struct:z_stream_s
+open_devices	main.c	/^static void open_devices(void)$/;"	f	file:
+options	config-serial.c	/^static struct termios options;$/;"	v	typeref:struct:termios	file:
+ord_fd	include/Jianei_Order.h	/^	int 	ord_fd;	$/;"	m	struct:orderStruct
+ord_fd	include/Jianei_Order.h	/^	int ord_fd;$/;"	m	struct:batchOrderStruct
+ord_number	include/Jianei_Order.h	/^	uint8_t ord_number[17];$/;"	m	struct:batchOrderStruct
+ord_number	include/Jianei_Order.h	/^	uint8_t ord_number[17];$/;"	m	struct:orderStruct
+ord_number	module_orders.c	/^	uint8_t ord_number[17];$/;"	m	struct:orderStruct	file:
+ord_result	include/Jianei_Order.h	/^	uint8_t ord_result[SIZE];$/;"	m	struct:batchOrderStruct
+ord_result	include/Jianei_Order.h	/^	uint8_t ord_result[SIZE];$/;"	m	struct:orderStruct
+ord_result	module_orders.c	/^	uint8_t ord_result[SIZE];$/;"	m	struct:orderStruct	file:
+ord_result_i3_format	include/Jianei_Order.h	/^	uint8_t ord_result_i3_format[SIZE*2];$/;"	m	struct:batchOrderStruct
+ord_result_i3_format	include/Jianei_Order.h	/^	uint8_t ord_result_i3_format[SIZE*2];$/;"	m	struct:orderStruct
+ord_type	include/Jianei_Order.h	/^	uint8_t ord_type;$/;"	m	struct:batchOrderStruct
+ord_type	include/Jianei_Order.h	/^	uint8_t ord_type;$/;"	m	struct:orderStruct
+orderOperations_del_ports_between_two_frames	module_orders.c	/^static void orderOperations_del_ports_between_two_frames(unsigned char *src,$/;"	f	file:
+orderOperations_del_ports_between_two_frames_19	module_orders.c	/^static void  orderOperations_del_ports_between_two_frames_19(unsigned char *src,$/;"	f	file:
+orderOperations_multipies_ports_between_frames	module_orders.c	/^static void orderOperations_multipies_ports_between_frames(unsigned char *src,$/;"	f	file:
+orderOperations_multipies_ports_between_frames_30	module_orders.c	/^static void orderOperations_multipies_ports_between_frames_30(unsigned char *src,$/;"	f	file:
+orderOperations_new_ports_between_two_frames	module_orders.c	/^static void orderOperations_new_ports_between_two_frames(unsigned char *src,$/;"	f	file:
+orderOperations_new_ports_between_two_frames_18	module_orders.c	/^static void  orderOperations_new_ports_between_two_frames_18(unsigned char *src,$/;"	f	file:
+orderStruct	include/Jianei_Order.h	/^struct orderStruct{$/;"	s
+orderStruct	module_orders.c	/^struct orderStruct{$/;"	s	file:
+order_data_t	module_orders.c	/^}order_data_t;$/;"	t	typeref:struct:__anon3	file:
+order_results	include/Jiajian_Order.h	/^	unsigned char order_results[5][200];$/;"	m	struct:jiajian_struct
+order_tasks_to_sim3u1xx_board	module_orders.c	/^static int order_tasks_to_sim3u1xx_board(void)$/;"	f	file:
+orderflag	include/os_struct.h	/^	unsigned char orderflag;$/;"	m	struct:frame_status
+orderoperations_failure_and_reply_to_mobile	lib_orders/Jianei_common.c	/^void orderoperations_failure_and_reply_to_mobile(uint8_t orderCmd, uint8_t errCode)$/;"	f
+orderoperations_success_and_reply_to_mobile	lib_orders/Jianei_common.c	/^void orderoperations_success_and_reply_to_mobile(uint8_t *Buffer, uint8_t orderCmd, uint8_t errCode)$/;"	f
+os	env/zlib.h	/^	int	os;	\/* operating system *\/$/;"	m	struct:gz_header_s
+os_boardinfo	include/os_struct.h	/^typedef struct os_boardinfo {$/;"	s
+os_boardinfo_t	include/os_struct.h	/^typedef struct os_boardinfo_t {$/;"	s
+os_netPart	include/os_struct.h	/^typedef struct os_netPart{$/;"	s
+os_uart0_struct	include/os_struct.h	/^typedef struct os_uart0_struct{$/;"	s
+out_func	env/zlib.h	100;"	d
+outcb	env/zlib.h	/^	cb_func	outcb;	\/* called regularly just before blocks of output *\/$/;"	m	struct:z_stream_s
+output_mark	module_orders.c	/^	unsigned char output_mark[MAX_MULTIPIES_NUM][60];$/;"	m	struct:db_store	file:
+packet_i3_data	include/dfu_update.h	/^	uint8_t packet_i3_data[2048];$/;"	m	struct:DFU_UPDATE
+packet_lo_data	include/dfu_update.h	/^	uint8_t packet_lo_data[2048];$/;"	m	struct:DFU_UPDATE
+packets	include/dfu_update.h	/^	uint8_t packets[400*1024];	$/;"	m	struct:DFU_UPDATE
+parity	include/serialconfig.h	/^	unsigned char parity;$/;"	m	struct:serial_config
+parse_config	env/fw_env.c	/^static int parse_config ()$/;"	f	file:
+password	include/dfu_update.h	/^	uint8_t password[SZ_256];$/;"	m	struct:DFU_UPDATE
+poll_sim3u146_cmd	main.c	/^unsigned char poll_sim3u146_cmd[7] = {0x7e,0x00,0x05,0x20,0x00,0x00,0x5a};$/;"	v
+port	include/os_struct.h	/^	unsigned char port[2];$/;"	m	struct:os_boardinfo
+port_a_data	module_orders.c	/^	unsigned char port_a_data[5][50];$/;"	m	struct:relations	file:
+port_a_port	module_orders.c	/^	unsigned char port_a_port[5][40];$/;"	m	struct:relations	file:
+port_task_finished	module_orders.c	/^	unsigned char port_task_finished[5];$/;"	m	struct:relations	file:
+port_z_data	module_orders.c	/^	unsigned char port_z_data[5][50];$/;"	m	struct:relations	file:
+port_z_port	module_orders.c	/^	unsigned char port_z_port[5][40];$/;"	m	struct:relations	file:
+port_z_uuid	module_orders.c	/^	unsigned char port_z_uuid[5][20];$/;"	m	struct:relations	file:
+print_serialread	config-serial.c	/^static void print_serialread()$/;"	f	file:
+pthread_alarm	module_alarm.c	/^void *pthread_alarm(void *arg)$/;"	f
+pthread_collect_data_upload_to_webmaster	module_resource.c	/^void *pthread_collect_data_upload_to_webmaster(void *socket_fd)$/;"	f
+pthread_keepalive_routine	main.c	/^void *pthread_keepalive_routine(void *arg)$/;"	f
+pthread_mobile_routine	main.c	/^void *pthread_mobile_routine(void *arg)$/;"	f
+pthread_net_routine	main.c	/^void *pthread_net_routine(void *arg)$/;"	f
+pthread_poll_sim3u146_routine	main.c	/^void *pthread_poll_sim3u146_routine(void *arg)$/;"	f
+pthread_runled_display	main.c	/^void *pthread_runled_display(void* arg)$/;"	f
+pthread_server_routine	main.c	/^void *pthread_server_routine(void *arg)$/;"	f
+pthread_wdt_routine	main.c	/^void *pthread_wdt_routine(void* arg)$/;"	f
+public_crc16_mutex	main.c	/^pthread_mutex_t public_crc16_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+public_crccheck_mutex	main.c	/^pthread_mutex_t public_crccheck_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+public_memory	main.c	/^public_memory_area_t public_memory;$/;"	v
+public_memory_area_t	include/os_struct.h	/^}public_memory_area_t;$/;"	t	typeref:struct:__anon2
+rail	include/queue.h	/^	unsigned int  rail;$/;"	m	struct:_TASKQUEUE
+rd_devices_version_info	main.c	/^static int rd_devices_version_info(unsigned char *src,unsigned char dt)$/;"	f	file:
+rd_mainboard_frame_counts	main.c	/^static int rd_mainboard_frame_counts(void)$/;"	f	file:
+rd_mainboard_ports_info	main.c	/^static int rd_mainboard_ports_info(unsigned char *src,unsigned char dt)$/;"	f	file:
+rd_mainboard_tray_info	main.c	/^static int rd_mainboard_tray_info(unsigned char *src,unsigned char dt)$/;"	f	file:
+rd_mainboard_user_info	main.c	/^static int rd_mainboard_user_info(void) \/\/cmd=0x01:read board info$/;"	f	file:
+rdl	include/mobile.h	/^	unsigned short rdl;$/;"	m	struct:uart1_data
+reSourceInfo	include/os_struct.h	/^	unsigned char reSourceInfo[18000];$/;"	m	struct:os_netPart
+read_device_cfg_info	main.c	/^static int read_device_cfg_info(board_info_t *cfg)$/;"	f	file:
+read_mainboard_mac	main.c	/^static int read_mainboard_mac(unsigned char *src,unsigned char datatype,int sockfd) \/\/cmd=0x14:write uuid $/;"	f	file:
+read_mainboard_time	main.c	/^int read_mainboard_time(unsigned char *time_val,unsigned char datasource,int sockfd)$/;"	f
+readserialcfg	config-serial.c	/^static void readserialcfg(int uart_nr)$/;"	f	file:
+recv_packet_num	include/dfu_update.h	/^	uint32_t recv_packet_num;$/;"	m	struct:DFU_UPDATE
+recvthid	module_orders.c	/^	pthread_t recvthid;$/;"	m	struct:_gap_var	file:
+relations	module_orders.c	/^struct relations{$/;"	s	file:
+replace_unit_board_cf8051	main.c	/^static int replace_unit_board_cf8051(unsigned char *src,unsigned char dt)$/;"	f	file:
+reply_buf	main.c	/^static unsigned char reply_buf[9] = {'\\0'};$/;"	v	file:
+reply_to_webmaster_data	dfu_update/update_cf8051.c	/^unsigned char     reply_to_webmaster_data[SZ_512];$/;"	v
+reply_to_webmaster_data	dfu_update/update_sim3u1xx.c	/^unsigned char reply_to_webmaster_data[100];$/;"	v
+reserved	env/zlib.h	/^	uLong	reserved;	\/* reserved for future use *\/$/;"	m	struct:z_stream_s
+reset_odf_alarm_entires	module_alarm.c	/^void reset_odf_alarm_entires(void)$/;"	f
+rset	module_orders.c	/^	fd_set rset;$/;"	m	struct:_gap_var	file:
+rtcfd	main.c	/^int alarmfd = 0, uart0fd = 0, rtcfd = 0,uart1fd = 0;$/;"	v
+rx	include/os_struct.h	/^	unsigned char  rx;$/;"	m	struct:os_uart0_struct
+rxBuf	include/mobile.h	/^	unsigned char rxBuf[MOBILE_BUFFER];$/;"	m	struct:uart1_data
+rxBuf	include/os_struct.h	/^	unsigned char  rxBuf[2300];$/;"	m	struct:os_uart0_struct
+rxBuf	include/os_struct.h	/^	unsigned char rxBuf[300];$/;"	m	struct:os_netPart
+rxflag	include/mobile.h	/^volatile unsigned char rxflag;$/;"	m	struct:uart1_data
+s3c44b0x	main.c	/^OS_BOARD  s3c44b0x;$/;"	v
+scan_sim3u1xx_boards	main.c	/^static unsigned char scan_sim3u1xx_boards(unsigned char board_id)$/;"	f	file:
+second_resource_collect_recover_task	module_resource.c	/^int second_resource_collect_recover_task(unsigned char *src,int sockfd)$/;"	f
+sendCommand	dfu_update/ftp.c	/^static void sendCommand(int sock_fd, const char* cmd, const char* info)$/;"	f	file:
+send_startup_command_to_specific_cf8051_board	dfu_update/update_cf8051.c	/^static int send_startup_command_to_specific_cf8051_board(void)$/;"	f	file:
+send_startup_command_to_specific_sim3u146_board	dfu_update/update_sim3u1xx.c	/^static int send_startup_command_to_specific_sim3u146_board(void)$/;"	f	file:
+seraddr	include/os_struct.h	/^	unsigned char seraddr[4];$/;"	m	struct:os_boardinfo
+serial_config	include/serialconfig.h	/^struct serial_config$/;"	s
+serial_dev	include/serialconfig.h	/^	unsigned char serial_dev[WORDLEN];$/;"	m	struct:serial_config
+serial_init	config-serial.c	/^void serial_init(void)$/;"	f
+serial_speed	include/serialconfig.h	/^	unsigned int serial_speed;$/;"	m	struct:serial_config
+serialread	config-serial.c	/^static struct serial_config serialread;$/;"	v	typeref:struct:serial_config	file:
+serv_addr	module_orders.c	/^	struct sockaddr_in serv_addr;$/;"	m	struct:_os_gap	typeref:struct:_os_gap::sockaddr_in	file:
+server_ip	include/os_struct.h	/^	unsigned char server_ip[4];$/;"	m	struct:os_boardinfo_t
+server_portnum	include/os_struct.h	/^	unsigned char server_portnum[2];$/;"	m	struct:os_boardinfo_t
+server_sockfd	include/Jiajian_Order.h	/^	int server_sockfd;\/* webmaster's socket fd*\/$/;"	m	struct:jiajian_struct
+serveraddr	module_orders.c	/^	struct sockaddr_in serveraddr;$/;"	m	struct:_client	typeref:struct:_client::sockaddr_in	file:
+serverip	include/dfu_update.h	/^	uint8_t serverip[SZ_6];$/;"	m	struct:DFU_UPDATE
+set_Parity	config-serial.c	/^static int set_Parity(int fd)$/;"	f	file:
+set_ip_netmask	config-network.c	/^int set_ip_netmask(unsigned char *ipaddr,unsigned char *netmask)$/;"	f
+set_mac_addr	config-network.c	/^int set_mac_addr(unsigned char *src)$/;"	f
+set_speed	config-serial.c	/^static void set_speed(int fd)$/;"	f	file:
+sf_version	include/os_struct.h	/^	unsigned short sf_version;$/;"	m	struct:os_boardinfo
+sim3u146	dfu_update/update_sim3u1xx.c	/^struct DFU_SIM3U1XX sim3u146;$/;"	v	typeref:struct:DFU_SIM3U1XX
+sim3u146_enter_bootloader_stage_handle	dfu_update/update_sim3u1xx.c	/^static int sim3u146_enter_bootloader_stage_handle(unsigned char *uart_stream)$/;"	f	file:
+sim3u146_enter_reboot_stage_handle	dfu_update/update_sim3u1xx.c	/^static int sim3u146_enter_reboot_stage_handle(unsigned char *uart_stream)$/;"	f	file:
+sim3u146_startup_service_routine	dfu_update/update_sim3u1xx.c	/^static int sim3u146_startup_service_routine(void)$/;"	f	file:
+sim3u146_write_nflash_stage_handle	dfu_update/update_sim3u1xx.c	/^static int sim3u146_write_nflash_stage_handle(unsigned char *uart_stream)$/;"	f	file:
+sim3u1xx	main.c	/^frame_t   sim3u1xx;$/;"	v
+sim3u1xx_info_handle	main.c	/^static void sim3u1xx_info_handle(void)$/;"	f	file:
+sockfd	include/dfu_update.h	/^	int sockfd;$/;"	m	struct:DFU_CF8051
+sockfd	include/dfu_update.h	/^	int sockfd;$/;"	m	struct:DFU_SIM3U1XX
+sockfd	module_orders.c	/^	int sockfd;$/;"	m	struct:_os_gap	file:
+sockfds	module_orders.c	/^	int sockfds[5];$/;"	m	struct:relations	file:
+sortStyle	include/os_struct.h	/^	unsigned char sortStyle;$/;"	m	struct:os_boardinfo
+speed_arr	config-serial.c	/^static int speed_arr[] = {B230400, B115200, B57600, B38400, B19200, B9600, B4800, B2400, B1200, B300,$/;"	v	file:
+split_filename	dfu_update/ftp.c	/^static void split_filename(unsigned char *file,int len)$/;"	f	file:
+startup_stage_step1_download_file	dfu_update/update_sim3u1xx.c	/^static int startup_stage_step1_download_file(unsigned char *webmaster_data, int sockfd)$/;"	f	file:
+state	env/zlib.h	/^	struct	internal_state FAR *state; \/* not visible by applications *\/$/;"	m	struct:z_stream_s	typeref:struct:z_stream_s::FAR
+step1_jiajian_new_2_ports_init	lib_orders/Jiajian_Order_new_2_ports.c	/^static int step1_jiajian_new_2_ports_init(unsigned char *stream, int websockfd)$/;"	f	file:
+step2_jiajian_cancle_command_data_prepare	lib_orders/Jiajian_Order_new_2_ports.c	/^static void step2_jiajian_cancle_command_data_prepare(const unsigned char *stream)$/;"	f	file:
+step2_jiajian_new_command_data_prepare	lib_orders/Jiajian_Order_new_2_ports.c	/^static void step2_jiajian_new_command_data_prepare(const unsigned char *stream)$/;"	f	file:
+step3_host_send_command_to_local_odf	lib_orders/Jiajian_Order_new_2_ports.c	/^static int step3_host_send_command_to_local_odf(void)$/;"	f	file:
+step3_host_send_command_to_remote_odf	lib_orders/Jiajian_Order_new_2_ports.c	/^static int step3_host_send_command_to_remote_odf(void)$/;"	f	file:
+stopbits	include/serialconfig.h	/^	unsigned char stopbits;$/;"	m	struct:serial_config
+sys_perror	dfu_update/ftp.c	/^static void sys_perror(const char *errinfo, uint8_t sys_error, int line)$/;"	f	file:
+taskFinished	module_orders.c	/^	int taskFinished;$/;"	m	struct:_os_gap	file:
+taskFinished	module_orders.c	/^	volatile unsigned char taskFinished;$/;"	m	struct:_gap_var	file:
+tdl	include/mobile.h	/^	unsigned short tdl;$/;"	m	struct:uart1_data
+text	env/zlib.h	/^	int	text;	\/* true if compressed data believed to be text *\/$/;"	m	struct:gz_header_s
+thid	module_orders.c	/^	pthread_t thid;$/;"	m	struct:_os_gap	file:
+time	env/zlib.h	/^	uLong	time;	\/* modification time *\/$/;"	m	struct:gz_header_s
+time	include/os_struct.h	/^	unsigned char time[30];$/;"	m	struct:os_netPart
+timeBegin	module_resource.c	/^	struct  timeval timeBegin;$/;"	m	struct:FramePortInfos	typeref:struct:FramePortInfos::timeval	file:
+timeOut	module_resource.c	/^	struct  timeval timeOut;$/;"	m	struct:FramePortInfos	typeref:struct:FramePortInfos::timeval	file:
+tm	module_orders.c	/^	struct timeval tm;$/;"	m	struct:_gap_var	typeref:struct:_gap_var::timeval	file:
+total_in	env/zlib.h	/^	uLong	total_in; \/* total nb of input bytes read so far *\/$/;"	m	struct:z_stream_s
+total_out	env/zlib.h	/^	uLong	total_out; \/* total nb of bytes output so far *\/$/;"	m	struct:z_stream_s
+total_update_nums	include/dfu_update.h	/^	volatile uint8_t total_update_nums;$/;"	m	struct:DFU_CF8051
+total_update_nums	include/dfu_update.h	/^	volatile uint8_t total_update_nums;$/;"	m	struct:DFU_SIM3U1XX
+totalactiveDevices	include/os_struct.h	/^	unsigned char totalactiveDevices;\/\/<= 24$/;"	m	struct:os_boardinfo
+transform_old_data_format_to_new_protocol_fromat	main.c	/^static uint16_t transform_old_data_format_to_new_protocol_fromat(unsigned char *olddat, unsigned short olddat_len,$/;"	f	file:
+transm_temp_data	main.c	/^unsigned char transm_temp_data[300] = {'\\0'}; $/;"	v
+tx	include/os_struct.h	/^	unsigned char  tx;$/;"	m	struct:os_uart0_struct
+txBuf	include/mobile.h	/^	unsigned char txBuf[MOBILE_BUFFER];$/;"	m	struct:uart1_data
+txBuf	include/os_struct.h	/^	unsigned char  txBuf[24][600];$/;"	m	struct:os_uart0_struct
+txBuf	include/os_struct.h	/^	unsigned char txBuf[300];$/;"	m	struct:os_netPart
+txBuf	module_orders.c	/^	unsigned char txBuf[12][100];$/;"	m	struct:db_store	file:
+txflag	include/mobile.h	/^volatile unsigned char txflag;$/;"	m	struct:uart1_data
+type	include/Jiajian_Order.h	/^	int type;$/;"	m	struct:jiajian_struct
+type	include/dfu_update.h	/^	uint8_t type;$/;"	m	struct:DFU_UPDATE
+uInt	env/zlib.h	/^typedef unsigned int   uInt;  \/* 16 bits or more *\/$/;"	t
+uInt	env/zlib.h	102;"	d
+uIntf	env/zlib.h	/^typedef uInt  FAR uIntf;$/;"	t
+uIntf	env/zlib.h	107;"	d
+uLong	env/zlib.h	/^typedef unsigned long  uLong; \/* 32 bits or more *\/$/;"	t
+uLong	env/zlib.h	103;"	d
+uLongf	env/zlib.h	/^typedef uLong FAR uLongf;$/;"	t
+uLongf	env/zlib.h	108;"	d
+uart0	main.c	/^OS_UART   uart0;$/;"	v
+uart0fd	main.c	/^int alarmfd = 0, uart0fd = 0, rtcfd = 0,uart1fd = 0;$/;"	v
+uart1_data	include/mobile.h	/^typedef struct uart1_data{$/;"	s
+uart1fd	main.c	/^int alarmfd = 0, uart0fd = 0, rtcfd = 0,uart1fd = 0;$/;"	v
+uncompress	env/zlib.h	91;"	d
+update	include/dfu_update.h	/^	volatile uint8_t update;$/;"	m	struct:DFU_CF8051
+update	include/dfu_update.h	/^	volatile uint8_t update;$/;"	m	struct:DFU_SIM3U1XX
+update_cf8051	dfu_update/update_cf8051.c	/^void update_cf8051(unsigned char data_source, unsigned char *stream, int fd)$/;"	f
+update_s3c2416x	dfu_update/update_s3c2416x.c	/^int update_s3c2416x(unsigned char *webmaster_data, int socket_fd)$/;"	f
+update_sim3u146	dfu_update/update_sim3u1xx.c	/^void update_sim3u146(unsigned char dt, unsigned char *stream, int fd)$/;"	f
+updateflag	include/os_struct.h	/^	unsigned char updateflag;$/;"	m	struct:frame_status
+updating	include/dfu_update.h	/^	uint8_t  updating[16];$/;"	m	struct:DFU_SIM3U1XX
+updating	include/dfu_update.h	/^	uint8_t updating[6*16];$/;"	m	struct:DFU_CF8051
+updating_frame_index	include/dfu_update.h	/^	volatile uint8_t updating_frame_index;	$/;"	m	struct:DFU_CF8051
+updating_frame_index	include/dfu_update.h	/^	volatile uint8_t updating_frame_index;	$/;"	m	struct:DFU_SIM3U1XX
+updating_result	include/dfu_update.h	/^	uint8_t  updating_result[16];$/;"	m	struct:DFU_SIM3U1XX
+updating_result	include/dfu_update.h	/^	uint8_t updating_result[6*16];$/;"	m	struct:DFU_CF8051
+updating_status	include/dfu_update.h	/^	uint8_t  updating_status[16];$/;"	m	struct:DFU_SIM3U1XX
+updating_status	include/dfu_update.h	/^	uint8_t updating_status[6*16];$/;"	m	struct:DFU_CF8051
+updating_tray_index	include/dfu_update.h	/^	volatile uint8_t updating_tray_index;	$/;"	m	struct:DFU_CF8051
+upload_entires	include/Jianei_Order.h	/^	uint8_t upload_entires;$/;"	m	struct:batchOrderStruct
+upload_entires	module_orders.c	/^	unsigned char upload_entires;$/;"	m	struct:db_store	file:
+username	include/dfu_update.h	/^	uint8_t username[SZ_256];$/;"	m	struct:DFU_UPDATE
+uuid	include/os_struct.h	/^	unsigned char uuid[16];$/;"	m	struct:os_boardinfo
+vars	module_orders.c	/^}vars;$/;"	v	typeref:struct:_gap_var
+verify	include/mobile.h	/^	unsigned char verify;$/;"	m	struct:uart1_data
+verify_update_finished_or_not	dfu_update/update_cf8051.c	/^static int verify_update_finished_or_not(void)$/;"	f	file:
+verify_update_finished_or_not	dfu_update/update_sim3u1xx.c	/^static int verify_update_finished_or_not(void)$/;"	f	file:
+voidp	env/zlib.h	/^   typedef Byte       *voidp;$/;"	t
+voidp	env/zlib.h	/^   typedef void       *voidp;$/;"	t
+voidp	env/zlib.h	110;"	d
+voidpc	env/zlib.h	/^   typedef Byte const *voidpc;$/;"	t
+voidpc	env/zlib.h	/^   typedef void const *voidpc;$/;"	t
+voidpf	env/zlib.h	/^   typedef Byte FAR   *voidpf;$/;"	t
+voidpf	env/zlib.h	/^   typedef void FAR   *voidpf;$/;"	t
+voidpf	env/zlib.h	109;"	d
+webmaster_data_handle	dfu_update/update_cf8051.c	/^static int webmaster_data_handle(unsigned char *webmaster_data, int sockfd)$/;"	f	file:
+write_mainboard_dev_info	main.c	/^static int write_mainboard_dev_info(unsigned char *src)$/;"	f	file:
+write_mainboard_mac	main.c	/^static int write_mainboard_mac(unsigned char *src,unsigned char datatype, int sockfd) \/\/cmd=0x14:write uuid $/;"	f	file:
+write_mainboard_time	main.c	/^static int write_mainboard_time(unsigned char *time,unsigned char datasource,int sockfd)$/;"	f	file:
+write_mainboard_uuid	main.c	/^static int write_mainboard_uuid(unsigned char *src) \/\/cmd=0x14:write uuid $/;"	f	file:
+xflags	env/zlib.h	/^	int	xflags;	\/* extra flags (not used when writing a gzip file) *\/$/;"	m	struct:gz_header_s
+ydk_data	include/Jiajian_Order.h	/^	unsigned char ydk_data[5][600];$/;"	m	struct:jiajian_struct
+ydk_port_eids	include/Jianei_Order.h	/^	uint8_t ydk_port_eids[MAX_ENTIRES][40];$/;"	m	struct:batchOrderStruct
+ydk_port_info	include/Jianei_Order.h	/^	uint8_t ydk_port_info[MAX_ENTIRES][10];$/;"	m	struct:batchOrderStruct
+ydk_port_stat	include/Jianei_Order.h	/^	uint8_t ydk_port_stat[MAX_ENTIRES*2];$/;"	m	struct:batchOrderStruct
+ydk_ports	include/Jiajian_Order.h	/^	unsigned char ydk_ports[5][10];$/;"	m	struct:jiajian_struct
+zError	env/zlib.h	95;"	d
+z_off_t	env/zlib.h	341;"	d
+z_off_t	env/zlib.h	348;"	d
+z_stream	env/zlib.h	/^} z_stream;$/;"	t	typeref:struct:z_stream_s
+z_stream_s	env/zlib.h	/^typedef struct z_stream_s {$/;"	s
+z_streamp	env/zlib.h	/^typedef z_stream FAR *z_streamp;$/;"	t
+zalloc	env/zlib.h	/^	alloc_func	zalloc;	\/* used to allocate the internal state *\/$/;"	m	struct:z_stream_s
+zfree	env/zlib.h	/^	free_func	zfree;	\/* used to free the internal state *\/$/;"	m	struct:z_stream_s
+zkb_cancle_port	include/Jianei_Order.h	/^	uint8_t zkb_cancle_port[MAX_FRAMES][SIZE];$/;"	m	struct:batchOrderStruct
+zkb_cancle_port	include/Jianei_Order.h	/^	uint8_t zkb_cancle_port[SIZE];$/;"	m	struct:orderStruct
+zkb_cancle_port	module_orders.c	/^	uint8_t zkb_cancle_port[SIZE];$/;"	m	struct:orderStruct	file:
+zkb_check_collectTask_Done	module_resource.c	/^static uint32_t zkb_check_collectTask_Done(void)$/;"	f	file:
+zkb_cmd	include/Jianei_Order.h	/^	uint8_t zkb_cmd[2*SIZE];$/;"	m	struct:batchOrderStruct
+zkb_issue_cancle_command_to_jkb	lib_orders/Jianei_common.c	/^void zkb_issue_cancle_command_to_jkb(uint8_t *src,uint8_t subCmd)$/;"	f
+zkb_issue_output_command_to_jkb	lib_orders/Jianei_common.c	/^void zkb_issue_output_command_to_jkb(uint8_t *src,uint8_t subCmd)$/;"	f
+zkb_rep0d	include/Jianei_Order.h	/^	uint8_t zkb_rep0d[SIZE];$/;"	m	struct:orderStruct
+zkb_rep0d	module_orders.c	/^	uint8_t zkb_rep0d[SIZE];$/;"	m	struct:orderStruct	file:
+zkb_rep0d	module_resource.c	/^	uint8_t zkb_rep0d[MAXFRAME][10]; \/* zkb这3个字母是主控板的首字母的缩写，jkb代表接口板，dyb代表单元板的意思*\/	$/;"	m	struct:FramePortInfos	file:
+zkb_rep20	module_resource.c	/^	uint8_t zkb_rep20[MAXFRAME][10]; \/* 0d\/20\/A6 分别代表了要发送给接口板的数据命令 *\/$/;"	m	struct:FramePortInfos	file:
+zkb_repA2	include/Jianei_Order.h	/^	uint8_t zkb_repA2[2*SIZE];$/;"	m	struct:batchOrderStruct
+zkb_repA6	module_resource.c	/^	uint8_t zkb_repA6[MAXFRAME][10]; \/* rep这3个字母是英文reply的意思，即代表主控回复接口板的命令数组 *\/$/;"	m	struct:FramePortInfos	file:
+zkb_rxBuf	module_resource.c	/^	uint8_t zkb_rxBuf[INFOSIZE];$/;"	m	struct:FramePortInfos	file:
+zkb_rxBuf_data_part	module_resource.c	/^static uint8_t zkb_rxBuf_data_part(uint32_t jkb_num)$/;"	f	file:
+zkb_stats	module_resource.c	/^   uint32_t zkb_stats[MAXFRAME];     \/* zkb_stats用来表示主控板中记录着哪些框是要采集的，其中设置1表示要采集，0xdead表示不存在这个框 *\/	$/;"	m	struct:FramePortInfos	file:
+zkb_txBuf_data_part	module_resource.c	/^static uint32_t zkb_txBuf_data_part(void)$/;"	f	file:
+zkb_txBuf_data_tianchong	module_resource.c	/^static void zkb_txBuf_data_tianchong(unsigned char *src)$/;"	f	file:
+zkb_upload_portinfo_to_webmaster	module_resource.c	/^static int zkb_upload_portinfo_to_webmaster(int fd)$/;"	f	file:
